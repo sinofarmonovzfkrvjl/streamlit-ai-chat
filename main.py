@@ -5,7 +5,7 @@ gemini.configure(api_key="AIzaSyBeJtlvS9r5apzbdQGqsuM2JZJZjVdcTqI")
 
 st.title("Gemini AI Chatbot")
 
-st.write("you need to press r or reload the page, after the questions, to get the response from the bot")
+st.write("if you're on a Laptop you need to press r key after the running word disappear on the top right side of the screen, if you're on phone press on three dots on the top right side of screen and press rerun")
 
 # Initialize session state for storing chat messages
 if "messages" not in st.session_state:
