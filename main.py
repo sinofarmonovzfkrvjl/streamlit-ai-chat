@@ -3,6 +3,8 @@ import google.generativeai as gemini
 
 gemini.configure(api_key="AIzaSyBeJtlvS9r5apzbdQGqsuM2JZJZjVdcTqI")
 
+st.title("Gemini AI Chatbot")
+
 st.write("you need to press r or reload the page, after the questions, to get the response from the bot")
 
 # Initialize session state for storing chat messages
